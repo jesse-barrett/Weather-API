@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav>Weather API</nav>
+    <div id="app">
+        <div class="form">
+            <p>
+                Enter your location or zip code below to see the weather forcast for the next 7 days near you!
+            </p>
+            <div>
+                <label for="location">location:</label>
+                <input id="gwinput" type="text" placeholder="location or zip">
+            </div>
+            <button id="gw">Get My Weather</button>
+            <div class="account">
+                <button>Login</button>
+                <button>Sign Up</button>
+            </div>
+        </div>
+        <div id="gwoutput" class="output">
+            <!-- <div class="card">
+                <p id="gwdate">Date</p>
+                <div class="columns">
+                    <div>
+                        <p id="gwavgtemp">98&deg</p>
+                        <p><span id="gwmintemp">97&deg</span> - <span id="gwmaxtemp">99&deg</span></p>
+                    </div>
+                    <div>
+                        <img src="#" alt="weather icon">
+                        <p id="gwcondition">Sunny</p>
+                    </div>
+                    <div>
+                        <p id="gwchanceofrain">20%</p>
+                        <p id="totalprecip">5 in</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script type="module" src="app/model.js"></script>
+    <script type="module" src="app/app.js"></script>
+</body>
+
+</html>
