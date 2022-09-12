@@ -7,7 +7,7 @@ function getCurrentDate(name) {
   return fullDate;
 }
 
-const key = "208850fffa3b427c8e4204635222908";
+const key = "53599ec288054906a0a203018222908";
 const baseURL = "http://api.weatherapi.com/v1/";
 
 function getCurrentWeather(location) {
